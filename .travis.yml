@@ -1,7 +1,8 @@
 language: python
 os: linux
+python: "3.8"
 install:
   - pip install pipenv
   - pipenv install --dev
 script:
-  - flake8  
+  - pytest  
