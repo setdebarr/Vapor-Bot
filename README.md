@@ -2,7 +2,7 @@
 
   <p align="center">
     <a href="https://github.com/setdebarr/Vapor-Bot/actions">
-      <img alt="Tests Passing" src="https://github.com/setdebarr/Vapor-Bot/Test/badge.svg" />
+      <img alt="Tests Passing" src="https://github.com/setdebarr/Vapor-Bot/workflows/Test/badge.svg" />
     </a>
     <a href='https://coveralls.io/github/setdebarr/Vapor-Bot?branch=master'>
         <img src='https://coveralls.io/repos/github/setdebarr/Vapor-Bot/badge.svg?branch=master' alt='Coverage Status' />
