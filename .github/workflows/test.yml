@@ -27,9 +27,9 @@ jobs:
         pipenv install --dev
     - name: Test with pytest
       run: |
-        pytest --cov=vapor_bot
+        pipenv run pytest --cov=vapor_bot
     - name: Code Coverage
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        coveralls
+        pipenv run coveralls
