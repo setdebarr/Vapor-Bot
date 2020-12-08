@@ -1,0 +1,7 @@
+language: python
+os: linux
+install:
+  - pip install pipenv
+  - pipenv install --dev
+script:
+  - flake8  
