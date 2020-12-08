@@ -1,1 +1,1 @@
-LUSE Vanguard Discord Bot
+Vapor Bot
